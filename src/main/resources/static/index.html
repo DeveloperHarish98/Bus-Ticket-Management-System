@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bus Ticket Management System</h1>
+    </header>
+    <main>
+        <h2>Book Your Ticket</h2>
+        <form id="ticketForm">
+            <label for="passengerName">Name:</label>
+            <input type="text" id="passengerName" name="passengerName" required>
+            <label for="passengerEmail">Email:</label>
+            <input type="email" id="passengerEmail" name="passengerEmail" required>
+            <label for="busNumber">Bus Number:</label>
+            <input type="text" id="busNumber" name="busNumber" required>
+            <button type="submit">Book Ticket</button>
+        </form>
+        <div id="response"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
