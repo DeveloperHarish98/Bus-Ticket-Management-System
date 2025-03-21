@@ -1,15 +1,13 @@
 package org.springboot.controller;
-
 import org.springboot.model.Ticket;
 import org.springboot.service.TicketServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
-@RequestMapping("/tickets")
+@RequestMapping("/api/tickets")
 public class TicketController {
     @Autowired
     private TicketServiceImpl ticketService;
